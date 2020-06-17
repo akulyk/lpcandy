@@ -12,3 +12,6 @@ Create own langing pages
 - set own domains in config.php
 - run <your_domain>/install
 Done!
+
+### Development
+to build js files use [Bergamot](https://github.com/boomyjee/bergamot)
