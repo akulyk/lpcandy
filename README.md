@@ -11,6 +11,7 @@ Create own langing pages
 - set /public as website root
 - set own domains in config.php
 - run <your_domain>/install
+
 Done!
 
 ### Development
