@@ -19,6 +19,7 @@ Done!
 This project uses Yandex Map API. 
 
 Please, enter correct 'geocoder_api_key' in db.php file
+to get ability to show adresses on maps
 
 to enter 'admin' area use <your_domain>/admin
 login: admin
