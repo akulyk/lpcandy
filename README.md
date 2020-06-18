@@ -19,5 +19,10 @@ Done!
 to enter 'admin' area use <your_domain>/admin
 login: admin
 
+db.php example
+```php
+\Bingo\Configuration::addDbConnection('localhost','lpcandy','root','password');
+```
+
 ### Development
 to build js files use [Bergamot](https://github.com/boomyjee/bergamot)
