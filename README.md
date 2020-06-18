@@ -25,7 +25,8 @@ and set own $geocoder_api_key (project will not work without it).
 to enter 'admin' area use <your_domain>/admin
 
 ### Development
-frontend files are in front folder
+frontend files are in ```front``` folder
+
 to build js files use [Bergamot](https://github.com/boomyjee/bergamot)
 - ```bergamot build``` to build frontend project files without minify (when change some front files)
 - ```bergamot watch``` to build files and watch for changes (useful for development)
