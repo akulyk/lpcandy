@@ -1,0 +1,2 @@
+\Bingo\Configuration::addDbConnection('localhost','lpcandy_dev','root','');
+\LPCandy\Configuration::$geocoder_api_key = "b7e94dce-e8d9-4063-8046-66b4cd6d8e34";
