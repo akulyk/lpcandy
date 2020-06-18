@@ -3,7 +3,8 @@ Landing page editor based on Preact
 
 ## Install
 
-- add db.php file with db credentials into the project root folder
+- rename ```db.php.sample``` into ```db.php``` file with own db credentials
+and set own $geocoder_api_key (project will not work without it). 
 
 db.php example
 ```php
@@ -34,4 +35,7 @@ to enter 'admin' area use <your_domain>/admin
 ### Development
 frontend files are in front folder
 to build js files use [Bergamot](https://github.com/boomyjee/bergamot)
+- ```bergamot build``` to build frontend project files without minify (when change some front files)
+- ```bergamot watch``` to build files and watch for changes (useful for development)
+- ```bergamot minify``` to prepare frontend to use on production
 
