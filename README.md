@@ -16,6 +16,7 @@ Create own langing pages
 Done!
 
 to enter 'admin' area use <your_domain>/admin
+login: admin
 
 ### Development
 to build js files use [Bergamot](https://github.com/boomyjee/bergamot)
