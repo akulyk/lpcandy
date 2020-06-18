@@ -16,6 +16,10 @@ Create own landing pages as easy as possible
 
 Done!
 
+This project uses Yandex Map API. 
+
+Please, enter correct 'geocoder_api_key' in db.php file
+
 to enter 'admin' area use <your_domain>/admin
 login: admin
 
