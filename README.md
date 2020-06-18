@@ -14,7 +14,7 @@ and set own $geocoder_api_key (project will not work without it).
         'en_EN' =>'en.your_domain.com',
 ],
 'smtp' => [
-        'host' => 'localhost',
+        'host' => '',
         'port' => '',
         'username' => '',
         'password' => ''
