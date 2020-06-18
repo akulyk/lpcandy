@@ -1,5 +1,6 @@
 # lpcandy
 Landing page editor based on Preact
+
 Create own langing pages
 
 ## Install
