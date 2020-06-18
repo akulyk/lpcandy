@@ -10,6 +10,7 @@ Create own langing pages
 - add Bingo to project root folder
 - set /public as website root
 - set own domains in config.php
+- set path to Bingo in /pablic/index.php file
 - run <your_domain>/install
 
 Done!
