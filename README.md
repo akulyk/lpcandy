@@ -6,14 +6,6 @@ Landing page editor based on Preact
 - rename ```db.php.sample``` into ```db.php``` file with own db credentials
 and set own $geocoder_api_key (project will not work without it). 
 
-db.php example
-```php
-\Bingo\Configuration::addDbConnection('localhost','lpcandy','root','password');
-\LPCandy\Configuration::$geocoder_api_key = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx";
-```
-Please, enter correct 'geocoder_api_key' in db.php file
-to get ability to show adresses on maps
-
 - add Bingo to project root folder **Warning!** You must have a Bingo CMS to use this project
 - set own domains and email credentials in config.php
 ```php
