@@ -3,7 +3,6 @@ Landing page editor based on Preact
 
 ## Install
 
-
 - add db.php file with db credentials into the project root folder
 
 db.php example
@@ -11,27 +10,26 @@ db.php example
 \Bingo\Configuration::addDbConnection('localhost','lpcandy','root','password');
 \LPCandy\Configuration::$geocoder_api_key = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx";
 ```
-
-- add Bingo to project root folder
-
-**Warning!** You must have a Bingo CMS to use this project
-
-- set /public folder as webroot
-- set own domains in config.php
-- set path to Bingo in /pablic/index.php file
-- run <your_domain>/install
-
-Done!
-
-This project uses Yandex Map API. 
-
 Please, enter correct 'geocoder_api_key' in db.php file
 to get ability to show adresses on maps
 
+- add Bingo to project root folder **Warning!** You must have a Bingo CMS to use this project
+- set own domains and email credentials in config.php
+```php
+'domain' => [
+        'ru_RU' =>'your_domain.com',
+        'en_EN' =>'en.your_domain.com',
+],
+'smtp' => [
+        'host' => 'localhost',
+        'port' => '',
+        'username' => '',
+        'password' => ''
+],
+```
+- run <your_domain>/install and enter password for 'admin' user
+
 to enter 'admin' area use <your_domain>/admin
-login: admin
-
-
 
 ### Development
 frontend files are in front folder
