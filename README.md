@@ -22,6 +22,7 @@ login: admin
 db.php example
 ```php
 \Bingo\Configuration::addDbConnection('localhost','lpcandy','root','password');
+\LPCandy\Configuration::$geocoder_api_key = "";
 ```
 
 ### Development
