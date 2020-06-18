@@ -6,7 +6,7 @@ Landing page editor based on Preact
 - rename ```db.php.sample``` into ```db.php``` file with own db credentials
 and set own $geocoder_api_key (project will not work without it). 
 
-- add Bingo to project root folder **Warning!** You must have a Bingo CMS to use this project
+- add Bingo to project root folder. **Warning!** You must have a Bingo CMS to use this project
 - set own domains and email credentials in config.php
 ```php
 'domain' => [
