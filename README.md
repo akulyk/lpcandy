@@ -28,6 +28,9 @@ to enter 'admin' area use <your_domain>/admin
 frontend files are in ```front``` folder
 
 to build js files use [Bergamot](https://github.com/boomyjee/bergamot)
+
+You can use next commands:
+
 - ```bergamot build``` to build frontend project files without minify (when change some front files)
 - ```bergamot watch``` to build files and watch for changes (useful for development)
 - ```bergamot minify``` to prepare frontend to use on production
