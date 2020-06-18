@@ -1,14 +1,21 @@
 # lpcandy
 Landing page editor based on Preact
 
-Create own landing pages as easy as possible 
-
 ## Install
+
+
+- add db.php file with db credentials into the project root folder
+
+db.php example
+```php
+\Bingo\Configuration::addDbConnection('localhost','lpcandy','root','password');
+\LPCandy\Configuration::$geocoder_api_key = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx";
+```
+
+- add Bingo to project root folder
+
 **Warning!** You must have a Bingo CMS to use this project
 
-- clone this repo on your server
-- add db.php file with db credentials into the project root folder
-- add Bingo to project root folder
 - set /public folder as webroot
 - set own domains in config.php
 - set path to Bingo in /pablic/index.php file
@@ -24,11 +31,9 @@ to get ability to show adresses on maps
 to enter 'admin' area use <your_domain>/admin
 login: admin
 
-db.php example
-```php
-\Bingo\Configuration::addDbConnection('localhost','lpcandy','root','password');
-\LPCandy\Configuration::$geocoder_api_key = "";
-```
+
 
 ### Development
+frontend files are in front folder
 to build js files use [Bergamot](https://github.com/boomyjee/bergamot)
+
