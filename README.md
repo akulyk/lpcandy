@@ -1,4 +1,7 @@
 # lpcandy
+
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
+
 Landing page editor based on Preact
 
 ## Install
@@ -34,4 +37,8 @@ You can use next commands:
 - ```bergamot build``` to build frontend project files without minify (when change some front files)
 - ```bergamot watch``` to build files and watch for changes (useful for development)
 - ```bergamot minify``` to prepare frontend to use on production
+
+### License
+
+Plugin is [MIT licensed](./LICENSE).
 
